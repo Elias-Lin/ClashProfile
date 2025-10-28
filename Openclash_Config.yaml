@@ -160,6 +160,8 @@ rules:
   - RULE-SET,apple_ip,直连
   - RULE-SET,cn_domain,直连
   - RULE-SET,cn_ip,直连
+  - RULE-SET,custom_Domain_direct,直连
+  - RULE-SET,custom_Domain_proxy,🚀 节点选择
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,ai,🤖 AI_Group
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
@@ -187,6 +189,8 @@ rule-anchor:
 rule-providers: 
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}
+  custom_Domain_direct: { <<: *class, url: "https://raw.githubusercontent.com/Elias-Lin/ClashProfile/refs/heads/main/Direct.list"}
+  custom_Domain_proxy: { <<: *class, url: "https://raw.githubusercontent.com/Elias-Lin/ClashProfile/refs/heads/main/ProxyLite.list"}
   ai: {  <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
