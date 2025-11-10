@@ -2,8 +2,14 @@
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,qichiyu.com
+
+# 域名桃花族
 DOMAIN-SUFFIX,taohuazu.com
 DOMAIN-SUFFIX,thzhd.org
+DOMAIN-SUFFIX,taohuazu.pw
+DOMAIN-SUFFIX,thzbt.net
+DOMAIN-SUFFIX,seseou.com
+DOMAIN-SUFFIX,taohuagongshe.com
 DOMAIN-SUFFIX,043222.xyz
 
 # 域名关键字匹配
