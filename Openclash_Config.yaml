@@ -171,14 +171,14 @@ proxy-groups:
 # 规则匹配
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
+  - RULE-SET,custom_Domain_direct,直连
+  - RULE-SET,custom_Domain_proxy,🚀 节点选择
   - RULE-SET,private_ip,直连,no-resolve
   - RULE-SET,private_domain,直连
   - RULE-SET,apple_domain,直连
   - RULE-SET,apple_ip,直连
   - RULE-SET,cn_domain,直连
   - RULE-SET,cn_ip,直连
-  - RULE-SET,custom_Domain_direct,直连
-  - RULE-SET,custom_Domain_proxy,🚀 节点选择
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,ai,🤖 AI_Group
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
